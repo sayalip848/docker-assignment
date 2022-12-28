@@ -8,7 +8,7 @@ pipeline {
 stages {
         stage ('git') {
             steps {
-                git url: 'https://github.com/sayalip848/docker-assignment.git'
+                git branch: '22Q1', url: 'http://github.com/sayalip848/docker-assignment.git'
             }
         }       
 stage ('create-deploy-22Q1-container') {
